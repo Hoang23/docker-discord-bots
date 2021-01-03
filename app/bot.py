@@ -48,5 +48,5 @@ async def rig(ctx, status):
     elif riggedStatus == False:
         await ctx.send("James is not rigged")
 
-discord_token = os.environ.get('COINBOT_TOKEN')
-client.run(discord_token)
+# discord_token = os.environ.get('COINBOT_TOKEN')
+client.run(os.environ.get('coin_discord_token'))

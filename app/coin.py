@@ -33,9 +33,9 @@ class RiggedCoin(Coin):
             elif rand == 2:
                 return "Tails"
         else:
-            return "Heads"
+            return "Tails"
 
-    
+
     def changeStatus(self, status):
         status.lower()
         status.strip()
